@@ -1,81 +1,64 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <title>My Website</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            margin: 0;
-            padding: 0;
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>cyberhill.me</title>
+    <style type="text/css">
+        *{
+            margin:0px;
         }
-
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
+        body{
+            background-color:rgba(10, 10, 20, 0.85);
         }
-
-        h1 {
-            font-size: 36px;
+        header{
+            background-color:rgba(10, 10, 20, 0.20);
+/*            border-bottom:2px solid black;*/
+            height:15vh;
+            width: 100wh;
         }
-
-        nav {
-            background-color: #444;
-        }
-
-        nav ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
-
-        nav li {
-            display: inline;
-            margin: 0 10px;
-        }
-
-        nav a {
+        .menu,li,a{
+            display: inline-block;
+            color: white;
+            font-size: 30px;
+            list-style-type: none;
             text-decoration: none;
-            color: #fff;
-            font-weight: bold;
+            padding-left:30px;
+            margin:3px 0px 5px 10px;
+        }
+        .logo{
+            height:15vh;
+            width: 50wh;
+            margin:5px 0px 5px -50px;
+        }
+        a:hover{
+            color:orangered;
         }
 
-        section {
-            padding: 20px;
-        }
-
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px;
-        }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Website</h1>
-    </header>
-    
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
-    
-    <section>
-        <h2>Welcome to our website!</h2>
-        <p>This is a simple home page for a website created using HTML, CSS, and JavaScript.</p>
-    </section>
-    
-    <footer>
-        &copy; 2023 My Website
-    </footer>
+        <header>
+                <img src="cyberhill.png" class="logo">    
+        </header>
+        <hr style="border-color:black;">
+        <div class="menu">    
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">Hot Deals</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </div>
+        <hr style="border-color:black;">
+        
+        <section>
+            
+        </section>
+        
+        <footer>
+            
+        </footer>
 </body>
 </html>
